@@ -31,7 +31,15 @@
 ## Justificación
 ## Objetivos
 ## Motivación
+
 # Funcionalidades del proyecto
+Las funcionalidades del proyecto se centran en la gestión de tres áreas que se relacionan entre sí mediante los datos que manejan:
+- Gestión de clientes.
+- Gestión de pedidos.
+- Gestión de productos clasificados en categorías.
+
+Para acceder a cada una de estas funcionalidades, el usuario requiere autorización.
+
 # Tecnologías utilizadas
 ## Herramientas de desarrollo:
 ### Eclipse
