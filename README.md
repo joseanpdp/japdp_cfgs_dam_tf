@@ -99,6 +99,7 @@ dispositivos embebidos, y como sistema operativo de escritorio para desarrollado
 # Guía de uso
 # Enlace a la documentación
 # Enlace a figma de la interfaz
+[Enlace a Figma](https://www.figma.com/design/yPMvaXWOxKpPxtpMQ5nsLd/cliente-proyectoFinal?node-id=0-1&t=mXFJzBq235vmhnZL-1)
 # Conclusión
 En este apartado, se reflexiona sobre el desarrollo del proyecto de manera resumida. A lo largo del mismo, se ha llevado a cabo la creación de una aplicación de gestión, la cual se centra principalmente en la implementación de funcionalidades CRUD para todas las entidades involucradas. Esta aplicación permite realizar una pequeña y simple simulación de la gestión de pedidos y productos de un supermercado, facilitando así la comprensión y manejo de estos procesos.
 
@@ -117,4 +118,7 @@ A todos los profesores, muchas gracias por su esfuerzo y por inspirarme a ser me
 # Referencias
 # Licencias
 # Contacto
+**Correo electrónico**: joseanperezdp@gmail.com
+**GitHub**: joseanpdp
+**Linkedin**: [Perfil de Linkedin](https://www.linkedin.com/in/jos%C3%A9-antonio-p%C3%A9rez-de-prada-0305462a6/)
 
