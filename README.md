@@ -104,7 +104,43 @@ Linux es un sistema operativo de código abierto basado en Unix. Es conocido por
 dispositivos embebidos, y como sistema operativo de escritorio para desarrolladores.
 
 # Guía de instalación
+Desde el directorio base del proyecto
+Construir el SPA React:
+```bash
+cd client
+npm run build -- --base=/react
+mv dist react
+```
+
+Colocar el SPA React en el directorio estático del servidor Spring Boot:
+
+mv react ../server/src/main/resources/static/
+
+Creación del JAR del servidor:
+```bash
+cd ../server
+mvn clean package
+```
+
+Con esto se crea el archivo **cfgs-dam-tf.jar** en el subdirectorio **target**.
+```
+target/cfgs-dam-tf.jar
+```
+
 # Guía de uso
+Si no movemos el archivo JAR, localmente podemos ejecutar la aplicación mediante
+```bash
+java -jar target/cfgs-dam-tf.jar
+```
+
+Para visualizar la aplicación debemos abrir la siguiente dirección mediante un navegador:
+```
+http://localhost:8080/react/index.html
+```
+El usuario administrador es **jose** y la contraseña inicial es **321**.
+
+Para desplazarte por las diferentes pantallas de la web puedes usar este diagrama como guía:
+
 # Enlace a la documentación
 # Enlace a figma de la interfaz
 [Enlace a Figma](https://www.figma.com/design/yPMvaXWOxKpPxtpMQ5nsLd/cliente-proyectoFinal?node-id=0-1&t=mXFJzBq235vmhnZL-1)
