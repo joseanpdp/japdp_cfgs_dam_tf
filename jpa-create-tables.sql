@@ -1,0 +1,12 @@
+create table t_category (id bigint not null auto_increment, description varchar(255), name varchar(255), primary key (id)) engine=InnoDB;
+create table t_customer (id bigint not null auto_increment, address varchar(255), name varchar(255), surname varchar(255), primary key (id)) engine=InnoDB;
+create table t_order (customer_id bigint, id bigint not null auto_increment, date varchar(255), ship_address varchar(255), status enum ('PENDING','SHIPPED','DELIVERED') not null, primary key (id)) engine=InnoDB;
+create table t_orderdetail (quantity integer not null, id bigint not null auto_increment, order_id bigint, product_id bigint, primary key (id)) engine=InnoDB;
+create table t_product (price float(53) not null, quantity integer not null, category_id bigint, id bigint not null auto_increment, description varchar(255), name varchar(255), primary key (id)) engine=InnoDB;
+create table t_user (id bigint not null auto_increment, creation_date varchar(255), description varchar(255), email varchar(255), password varchar(255), username varchar(255), role enum ('ADMIN','USER') not null, primary key (id)) engine=InnoDB;
+alter table t_user add constraint UK_i6qjjoe560mee5ajdg7v1o6mi unique (email);
+alter table t_user add constraint UK_jhib4legehrm4yscx9t3lirqi unique (username);
+alter table t_order add constraint FKesy3n2gc3fa0s3trrk3tvyv9a foreign key (customer_id) references t_customer (id);
+alter table t_orderdetail add constraint FKnjshvjicfnhhppqn7cta1jgbu foreign key (order_id) references t_order (id);
+alter table t_orderdetail add constraint FK2x36oaauph7p60nt1xgdg0tpy foreign key (product_id) references t_product (id);
+alter table t_product add constraint FKp17nkwpqnnxh5iax87dc58sp3 foreign key (category_id) references t_category (id);

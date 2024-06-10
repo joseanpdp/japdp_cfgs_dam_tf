@@ -1,0 +1,26 @@
+/*******************************************************************************
+
+  Menú principal
+
+*******************************************************************************/
+
+main.menu {
+    padding-top: 10em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main.menu > ul {
+    border-radius: 25px;
+    padding:2rem;
+}
+
+main.menu > ul > li {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding:0.5rem;
+    border-radius:0.5rem;
+}
+
+

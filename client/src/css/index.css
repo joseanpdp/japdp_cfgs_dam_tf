@@ -1,0 +1,260 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background:#002040;
+    font-family: "Open Sans", sans-serif;
+}
+
+/*******************************************************************************
+
+  GENERALES
+
+*******************************************************************************/
+
+nav > p {
+    color: orange;
+    font-size:1.5rem;
+    padding-left:1rem;
+}
+
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-direction: row;
+    background-color: #103090;
+    padding:0;
+    margin:0;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+}
+
+nav > ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    min-height:100%;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+nav > ul > li {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    height: 3em;
+    font-size: 1.5em;
+    text-align:center;
+    padding:0.5rem;
+    margin: 0;
+}
+
+nav > ul > li > img {
+    width: 2.5rem;
+}
+
+nav > ul > li:hover {
+    background: #406080;
+}
+
+
+.enlace {
+    cursor: pointer;  
+}
+
+header {
+    padding-top: 4em;
+    text-align:center;
+    color: orange;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: #d0ffd0;
+    margin:1rem;
+    padding-bottom: 4rem;
+}
+
+
+
+
+main ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+    background: #002080;
+}
+
+main li {
+    text-align: center;
+}
+
+main li:hover {
+    background: #406060;
+    color:#f0f0ff;
+}
+
+main {
+    margin: auto;
+}
+
+div.table {
+   width: 90%;
+   margin: auto;
+}
+
+div.table > div {
+    background: #101010;
+}
+
+div.table > div:not(:first-child):hover {
+    background: #406060;
+    cursor: pointer;
+}
+
+/*******************************************************************************
+
+  footer
+
+*******************************************************************************/
+
+footer {
+    background:#000020;
+    color:white;
+    font-size: 0.8rem;
+    position: fixed;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    display: flex;
+
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+    }
+
+    footer > p {
+        padding: 0.2rem;
+        margin: 0.2rem;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+
+    footer {
+        height: 6em;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    footer > p {
+      padding: 1rem;
+    }
+
+    footer > p:first-child {
+      text-align:left;
+    }
+
+    footer > p:last-child {
+      text-align:right;
+    }
+}
+
+
+
+
+
+
+
+
+
+/*******************************************************************************
+
+  Página pedidos nav
+
+*******************************************************************************/
+
+div.statusFilter {
+    background-color:#233b53;
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+div.statusFilter > ul {
+    width:100%;
+    margin:0;
+    padding:0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.statusFilter > ul > li {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selected {
+    background-color:#406080;
+}
+
+@media only screen and (max-width: 600px) {
+    div.statusFilter > ul {
+        width:100%;
+        flex-direction: column;
+    }
+
+    div.statusFilter > ul > li {
+        width: 100%;
+        height: 4vh;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    div.statusFilter > ul {
+        flex-direction: row;
+    }
+
+    div.statusFilter > ul > li {
+        width: 25%;
+        height: 5vh;
+    }
+}
+
+
+
+
+

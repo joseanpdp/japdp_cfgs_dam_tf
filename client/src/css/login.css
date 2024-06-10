@@ -1,0 +1,129 @@
+/*******************************************************************************
+
+  Login page : logos
+
+*******************************************************************************/
+
+main.login {
+    width: 100%;
+}
+
+main.login input {
+    padding:8px;
+    border-radius:12px;
+}
+
+main.login input[type="submit"] {
+  width:60%;
+  font-size: 1.2rem;
+  margin: 2rem;
+  background-color: #404040;
+  color: #ffffff;
+  border-radius: 8px;
+}
+
+main.login input[type="submit"]:hover {
+    background-color:#406080;
+
+}
+
+main.login label {
+
+    text-align: left;
+    font-size:0.8rem;
+    font-style:italic;
+}
+
+
+main.login > div.logos, 
+main.login > form  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid orange;
+    border-radius:8px;
+    background-color: #001020;
+    margin: auto;
+    padding:10px;
+}
+
+main.login > form {
+    flex-direction: column;
+}
+
+main.login > div.logos {
+    flex-direction: row;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    main.login > div.logos {
+        width:280px;
+    }
+
+    main.login > form {
+        width:360px;
+    }
+
+    main.login input {
+        width:90%;
+    }
+
+    main.login label {
+        width:90%;
+    }
+
+    main.login > div.logos > img:nth-of-type(1) {
+        width: 80px;
+    }
+
+    main.login > div.logos > img:nth-of-type(2) {
+        width: 80px;
+    }
+
+    main.login > div.logos > img:nth-of-type(3) {
+        width: 72px;
+    }
+
+}
+
+@media only screen and (min-width: 600px) {
+
+    main.login > div.logos {
+        width:340px;
+    }
+
+    main.login > form {
+        width:600px;
+    }
+
+    main.login {
+        justify-content: space-between;
+    }
+
+    main.login input {
+        width:560px;
+    }
+
+    main.login label {
+        padding-left:1rem;
+        width:560px%;
+    }
+
+    main.login > div.logos > img:nth-of-type(1) {
+        width: 100px;
+    }
+
+    main.login > div.logos > img:nth-of-type(2) {
+        width: 100px;
+    }
+
+    main.login > div.logos > img:nth-of-type(3) {
+        width: 90px;
+    }
+
+}
+

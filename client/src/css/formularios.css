@@ -1,0 +1,134 @@
+/*******************************************************************************
+
+  Formularios (addPages, editPages)
+
+*******************************************************************************/
+
+form { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width:90%;
+}
+
+input, label {
+    display: block;
+    border: none;
+}
+
+input[type="text"], input[type="password"] {
+    font-size: 1.2rem;
+    margin: 0.2rem;
+    padding: 0.2rem;
+    background-color: #202020;
+    color: #ffffff;
+}
+
+input[type="date"] {
+    font-size: 1.2rem;
+    margin: 0.2rem;
+    padding: 0.2rem;
+    background-color: #202020;
+    color: #ffffff;
+}
+
+input[type="submit"] {
+  font-size: 1.2rem;
+  margin: 0.2rem;
+  padding: 0.5rem;
+  background-color: #404040;
+  color: #ffffff;
+  border-radius: 8px;
+}
+
+input[type="submit"]:hover {
+    background-color:#406080;
+
+}
+
+select {
+    font-size: 1.2rem;
+    margin: 0.2rem;
+    padding: 0.5rem;
+    background-color: #202020;
+    color: #ffffff;
+    border-radius: 8px;
+    border: none;
+}
+
+p.message {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0.1rem;
+}
+
+label {
+   text-align: left;
+}
+
+form > div {
+    display: flex;
+    width: 90%;
+}
+
+@media only screen and (max-width: 600px) {
+
+
+    form > div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    label {
+        width:100%;
+        text-align: left;
+        font-size:0.8rem;
+        font-style:italic;
+    }
+
+    input[type="text"], input[type="password"] {
+        width:100%;
+    }
+
+    input[type="date"] {
+        width:100%;
+    }
+
+    select {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+
+    form { 
+      width:80%;
+    }
+
+    form > div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    label {
+        width:600px;
+        text-align: left;
+        font-size:0.8rem;
+        font-style:italic;
+    }
+
+    input[type="text"], input[type="password"] {
+        width:560px;
+    }
+
+    input[type="date"] {
+        width:560px;
+    }
+
+    select {
+        width: 560px;
+    }
+}
