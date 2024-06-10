@@ -142,9 +142,9 @@ Para desplazarte por las diferentes pantallas de la web puedes usar este diagram
 ![Diagrama de navegación](readmeMedia/diagramaNavegacion.png)
 
 Ejecutables:
-[Con H2](ejecutables/cfgs-dam-tf-version_H2.jar)
 
-[Con MySQL](ejecutables/cfgs-dam-tf.jar)
+- [Con H2](ejecutables/cfgs-dam-tf-version_H2.jar)
+- [Con MySQL](ejecutables/cfgs-dam-tf.jar)
 
 # Enlace a la documentación
 [PDF de la documentación](japdp-documentacion-proyectoFinalDeCiclo.pdf)
