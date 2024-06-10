@@ -143,6 +143,7 @@ Para desplazarte por las diferentes pantallas de la web puedes usar este diagram
 
 Ejecutables:
 [Con H2](ejecutables/cfgs-dam-tf-version_H2.jar)
+
 [Con MySQL](ejecutables/cfgs-dam-tf.jar)
 
 # Enlace a la documentación
