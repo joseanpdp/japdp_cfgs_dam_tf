@@ -133,9 +133,13 @@ Para visualizar la aplicación debemos abrir la siguiente dirección mediante un
 ```
 http://localhost:8080/react/index.html
 ```
+![Pantalla del Login](readmeMedia/loginWeb.png)
+
 El usuario administrador es **jose** y la contraseña inicial es **321**.
 
 Para desplazarte por las diferentes pantallas de la web puedes usar este diagrama como guía:
+
+![Diagrama de navegación](readmeMedia/diagramaNavegacion.png)
 
 # Enlace a la documentación
 # Enlace a figma de la interfaz
