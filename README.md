@@ -146,6 +146,8 @@ Ejecutables:
 - [Con H2](ejecutables/cfgs-dam-tf-version_H2.jar)
 - [Con MySQL](ejecutables/cfgs-dam-tf.jar)
 
+Se ejecutan con java -jar *nombre del jar*
+
 # Enlace a la documentación
 [PDF de la documentación](japdp-documentacion-proyectoFinalDeCiclo.pdf)
 
