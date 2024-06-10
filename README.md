@@ -8,29 +8,25 @@
 # ÍNDICE
 
 1. [Introducción](#introducción)
-- [Descripción del proyecto](#descripción-del-proyecto)   
-- [Justificación](#justificación)
-- [Objetivos](#objetivos)
-- [Motivación](#motivación)
-
-3. [Funcionalidades del proyecto](#funcionalidades-del-proyecto)
-4. [Tecnologías utilizadas](#tecnologías-utilizadas)
-5. [Guía de instalación](#guía-de-instalación)
-6. [Guía de uso](#guía-de-uso)
-7. [Enlace a la documentación](#enlace-a-la-documentación)
-8. [Enlace a figma de la interfaz](#enlace-a-figma-de-la-interfaz)
-9. [Conclusión](#conclusión)
-10. [Contribuciones](#contribuciones)
-11. [Agradecimientos](#agradecimientos)
-12. [Referencias](#referencias)
-13. [Licencias](#licencias)
-14. [Contacto](#contacto)
+2. [Funcionalidades del proyecto](#funcionalidades-del-proyecto)
+3. [Tecnologías utilizadas](#tecnologías-utilizadas)
+4. [Guía de instalación](#guía-de-instalación)
+5. [Guía de uso](#guía-de-uso)
+6. [Enlace a la documentación](#enlace-a-la-documentación)
+7. [Enlace a figma de la interfaz](#enlace-a-figma-de-la-interfaz)
+8. [Conclusión](#conclusión)
+9. [Agradecimientos](#agradecimientos)
+10. [Referencias](#referencias)
+11. [Contacto](#contacto)
 
 # Introducción
-## Descripción del proyecto
-## Justificación
-## Objetivos
-## Motivación
+Una franquicia de supermercados ha solicitado realizar una aplicación para gestionar los pedidos que los clientes realicen en persona o a través de su página web oficial. 
+Como se puede ver, la aplicación solicitada será para uso de los empleados y no para el público, por lo que cuenta con un sistema de inicio de sesión 
+antes de poder acceder a la página de inicio.
+
+Su objetivo principal es facilitar la gestión eficiente de los pedidos realizados por los clientes, ya sea en persona en las tiendas físicas o a través de la página web 
+oficial del supermercado. Esto hace que la página web se caracterice por tener que gestionar tanto los datos de los clientes, como de sus pedidos además del 
+stock de productos disponibles en el almacén.
 
 # Funcionalidades del proyecto
 Las funcionalidades del proyecto se centran en la gestión de tres áreas que se relacionan entre sí mediante los datos que manejan:
@@ -152,17 +148,35 @@ Asimismo, gracias a la investigación y el manejo de las tecnologías presentada
 Cabe destacar que, debido al desconocimiento inicial de algunas de las tecnologías utilizadas, como React, fue necesario invertir una parte considerable del tiempo de desarrollo en la investigación y práctica de esta herramienta. Esta inversión ha resultado en la consecución de los objetivos propuestos para la parte del frontend, aunque aún queda un amplio margen para futuras mejoras y optimizaciones.
 
 En conclusión, el proyecto no solo ha permitido la creación de una aplicación funcional y efectiva para la gestión de un supermercado, sino que también ha servido como una valiosa experiencia de aprendizaje y desarrollo profesional en el uso de nuevas tecnologías.
-# Contribuciones
+
 # Agradecimientos
 Quiero agradecer a los profesores del Grado Superior de Desarrollo de Aplicaciones Multiplataforma (DAM) por todo lo que me han enseñado durante estos dos años. Su dedicación, paciencia y compromiso con nuestra formación han sido invaluables.
 
 Gracias a sus conocimientos y experiencia, he podido adquirir una sólida base en el desarrollo de aplicaciones, lo cual ha sido fundamental para llevar a cabo este proyecto. Su apoyo y orientación durante todo el proceso de desarrollo del proyecto han sido cruciales para superar los desafíos encontrados y lograr los objetivos planteados.
 
 A todos los profesores, muchas gracias por su esfuerzo y por inspirarme a ser mejor cada día.
+
 # Referencias
-# Licencias
+Materiales didácicos sobre de Spring Boot de Joaquín Borrego Fernández (CFGS DAM FP Vedruna)
+
+Implementación de Spring Security con JWT de Joaquín Borrego Fernández (CFGS DAM FP Vedruna)
+
+Introducción a React de Joaquín Borrego Fernández (CFGS DAM FP Vedruna)
+
+Materiales didácticos sobre Spring Boot, SLF4J + Logback y JUnit5 + Mockito de Alejandro Téllez Rubio y Joaquín Matias Aguirre Oceja (Formación FP Dual NTT Data)
+
+[Curso de Spring Data de Daniel Medina](https://danielme.com/2023/01/18/curso-spring-data-jpa-1-introduccion-que-es-spring-data)
+
+["Deploy Spring Boot App as Traditional WAR on Tomcat Server"](https://howtodoinjava.com/spring-boot/deploy-spring-boot-traditional-war-on-tomcat/)
+
+["Getting started with React"](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started)
+
+["How to use async functions in useEffect (with examples) de Pierre Ouannes"](https://devtrium.com/posts/async-functions-useeffect)
+
+[Ejemplos del libro React Quickly de M. Barklund y A. Mardan](https://reactquickly.dev/browse)
+
 # Contacto
-**Correo electrónico**: joseanperezdp@gmail.com
-**GitHub**: joseanpdp
-**Linkedin**: [Perfil de Linkedin](https://www.linkedin.com/in/jos%C3%A9-antonio-p%C3%A9rez-de-prada-0305462a6/)
+- **Correo electrónico**: joseanperezdp@gmail.com
+- **GitHub**: joseanpdp
+- **Linkedin**: [Perfil de Linkedin](https://www.linkedin.com/in/jos%C3%A9-antonio-p%C3%A9rez-de-prada-0305462a6/)
 
